@@ -1,0 +1,135 @@
+/*
+ * WP Server Toolkit Pro — Admin styles
+ * Developed by: Saiful Islam (aThemeArt)
+ */
+
+.wpst-wrap .wpst-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	gap: 20px;
+	margin-top: 20px;
+}
+
+.wpst-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	padding: 16px 20px;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+}
+
+.wpst-card--wide {
+	grid-column: 1 / -1;
+}
+
+.wpst-card h2 {
+	margin-top: 0;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	color: #50575e;
+}
+
+.wpst-metric-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.wpst-metric-table th {
+	text-align: left;
+	font-weight: 600;
+	padding: 6px 8px 6px 0;
+	width: 40%;
+	color: #1d2327;
+}
+
+.wpst-metric-table td {
+	padding: 6px 0;
+}
+
+/* Status labels always carry text, never rely on color alone. */
+.wpst-status {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: 600;
+	border: 1px solid transparent;
+}
+
+.wpst-status--healthy {
+	background: #edfaef;
+	color: #1a7f37;
+	border-color: #b7ebc0;
+}
+
+.wpst-status--warning {
+	background: #fff8e5;
+	color: #9a6700;
+	border-color: #ffe08a;
+}
+
+.wpst-status--critical {
+	background: #fdeded;
+	color: #b32d2e;
+	border-color: #f6b8b8;
+}
+
+.wpst-empty {
+	color: #646970;
+	font-style: italic;
+}
+
+.wpst-alert-list {
+	margin: 0;
+	list-style: none;
+}
+
+.wpst-alert {
+	padding: 8px 10px;
+	margin-bottom: 6px;
+	border-left: 4px solid #dcdcde;
+	background: #f6f7f7;
+	font-size: 13px;
+}
+
+.wpst-alert--critical { border-left-color: #b32d2e; }
+.wpst-alert--warning { border-left-color: #9a6700; }
+
+.wpst-alert-time {
+	float: right;
+	color: #646970;
+	font-size: 11px;
+}
+
+.wpst-onboarding pre.wpst-install-cmd {
+	background: #1d2327;
+	color: #f0f0f1;
+	padding: 14px 16px;
+	border-radius: 4px;
+	overflow-x: auto;
+	font-size: 13px;
+	line-height: 1.6;
+}
+
+.wpst-modal {
+	position: fixed;
+	inset: 0;
+	background: rgba(0,0,0,0.5);
+	z-index: 100000;
+	align-items: center;
+	justify-content: center;
+}
+
+.wpst-modal-content {
+	background: #fff;
+	padding: 24px 28px;
+	border-radius: 6px;
+	width: 420px;
+	max-width: 92vw;
+}
+
+#wpst-last-updated {
+	font-style: italic;
+	color: #646970;
+}

@@ -4,7 +4,6 @@
 
 Developed by **[Md Saiful Islam (aThemeArt)](https://athemeart.com)**  
 Website: [https://athemeart.com](https://athemeart.com)
-
 Donate: [https://athemeart.com/downloads/wp-server-toolkit/](https://athemeart.com/downloads/wp-server-toolkit/)
 
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
